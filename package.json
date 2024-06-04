@@ -1,0 +1,20 @@
+{
+  "name": "node-httpyac",
+  "version": "0.0.1",
+  "description": "example how to use httpyac in nodejs",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc --project tsconfig.json && node ./dist/main.js"
+  },
+  "keywords": [
+    "httpyac"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "httpyac": "^6.14.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
+}
